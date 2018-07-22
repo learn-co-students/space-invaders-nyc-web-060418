@@ -1,3 +1,4 @@
+
 class CrewMember {
   constructor(position){
     this.position = position
@@ -5,7 +6,7 @@ class CrewMember {
   }
 
   engageWarpDrive(){
-    if (this.currentShip !== "Looking for a Rig" && this.position = 'Pilot') {
+    if (this.currentShip !== "Looking for a Rig" && this.position === 'Pilot') {
       return this.currentShip.warpDrive = "engaged"
     }
     return "had no effect"
